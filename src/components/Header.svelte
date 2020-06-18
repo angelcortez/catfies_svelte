@@ -5,8 +5,9 @@
   .Header {
     background-color: white;
     position: fixed;
-    width: 100%;
+    width: 90%;
   }
+
   .Header-container {
     grid-template-columns: minmax(auto, 936px);
     display: grid;
