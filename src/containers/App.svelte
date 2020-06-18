@@ -10,7 +10,7 @@
     onMount(async()=>{
         console.log('get data');
         const response = await fetch(API);
-        data = await response.json();
+        //data = await response.json();
 
         const jsonData = {
                             "posts":[
@@ -34,6 +34,69 @@
                                         "username":"Kitty"
                                         }
                                     ]
+                                },
+                                {
+                                    "username":"aeco77",
+                                    "location":"Monterrey, Nuevo León",
+                                    "avatar":"https://sumedico.blob.core.windows.net/images/2020/03/17/cuidadosgatobebe_2-focus-min0.07-0.45-983-557.jpg",
+                                    "photo":"https://img.youtube.com/vi/T5utMGMdNec/hqdefault.jpg",
+                                    "like":false,
+                                    "postComment":"Disfrutando el día",
+                                    "bookmark":false,
+                                    "comments":[
+                                        {
+                                        "id":1,
+                                        "text":"Hola",
+                                        "username":"CatDog"
+                                        },
+                                        {
+                                        "id":2,
+                                        "text":"Hola buen día",
+                                        "username":"Kitty"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "username":"aeco77",
+                                    "location":"Monterrey, Nuevo León",
+                                    "avatar":"https://sumedico.blob.core.windows.net/images/2020/03/17/cuidadosgatobebe_2-focus-min0.07-0.45-983-557.jpg",
+                                    "photo":"https://diseñoscreativos.com/wp-content/uploads/2018/06/imagenes-de-gatos-negros-www.dise%C3%B1oscreativos.com-portada-2-e1528765413541.jpg",
+                                    "like":false,
+                                    "postComment":"Disfrutando el día",
+                                    "bookmark":false,
+                                    "comments":[
+                                        {
+                                        "id":1,
+                                        "text":"Que taaal!!",
+                                        "username":"CatDog"
+                                        },
+                                        {
+                                        "id":2,
+                                        "text":"Hola buen día",
+                                        "username":"Kitty"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "username":"aeco77",
+                                    "location":"Sán Nicolas, Nuevo León",
+                                    "avatar":"https://sumedico.blob.core.windows.net/images/2020/03/17/cuidadosgatobebe_2-focus-min0.07-0.45-983-557.jpg",
+                                    "photo":"https://sumedico.blob.core.windows.net/images/2020/03/17/cuidadosgatobebe_2-focus-min0.07-0.45-983-557.jpg",
+                                    "like":false,
+                                    "postComment":"Disfrutando el día",
+                                    "bookmark":false,
+                                    "comments":[
+                                        {
+                                        "id":3,
+                                        "text":"jajaja",
+                                        "username":"CatDog"
+                                        },
+                                        {
+                                        "id":2,
+                                        "text":"Hola buen día",
+                                        "username":"Kitty"
+                                        }
+                                    ]
                                 }
                             ],   
                             "user":{
@@ -41,7 +104,7 @@
                                 "name":"Angel Cortez"
                                 }
                             };
-                            //data= jsonData;
+                            data= jsonData;
 console.log(jsonData);
 console.log(data);
     })
