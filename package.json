@@ -10,7 +10,7 @@
   "author": "Angel Cortez <angelcortez77@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^3.18.2"
+    "svelte": "^3.49.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
